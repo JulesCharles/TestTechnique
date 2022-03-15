@@ -1,0 +1,39 @@
+.header {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* padding-left: 185px;
+  border-radius: 20px; */
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  background-color: white;
+  /* width: 20px; */
+  justify-content: center;
+  padding-left: 72px;
+  background-color: white;
+}
+
+.headerStatsContainer,
+.headerStats {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerStats {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  text-align: left;
+  align-content: stretch;
+}
+
+.statItem {
+  margin: -2px 1vh;
+  color: var(--firstColor);
+  font-family: var(--fontBody);
+  width: 34ch;
+  font-size: 1.7rem;
+  color: black;
+}
